@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!--  Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+    
+            /* Background animation container */
+            .spline-animation {
+                position: fixed; /* Keep it fixed in place */
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1; /* Ensure it's behind all content */
+            }
+    
+            /* Content container */
+            .content {
+                position: relative;
+                z-index: 1; /* Layer above the animation */
+                padding: 20px;
+                font-family: Arial, sans-serif;
+                color: white;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+    
+            /* Background for text readability */
+            .content p {
+                background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+                padding: 10px;
+                border-radius: 5px;
+            }
+        </style>
+
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Spline Animation Background -->
+        <div class="spline-animation">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.46/build/spline-viewer.js"></script>
+            <spline-viewer loading-anim-type="none" url="https://prod.spline.design/2P1FJzws5T0IT8FS/scene.splinecode"></spline-viewer>
+        </div>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Portfolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <!--a href="#portfolio" class="nav-item nav-link">Portfolio</a -->
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Eunice Gichuhi</h1>
+                                <h2></h2>
+                                <div class="typed-text">Engineering undergrad, Data Analyst</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="mailto:ewgichuh@uwaterloo.ca?subject=Hire%20Me">Hire Me</a>
+                                <a class="btn" href="mailto:ewgichuh@uwaterloo.ca?subject=Contact%20Me">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <!-- div class="hero-image">
+                            <img src="img/hero.png" alt="Hero Image">
+                        </!-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>My Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    I’m an aspiring engineer pursuing a Bachelor’s degree in Nanotechnology at the University of Waterloo. 
+                                </p>
+                                <p>
+                                    I’m passionate about problem-solving and developing innovative solutions. I have experience in programming (Python, HTML, CSS) and data analysis/machine learning using tools like Pandas, NumPy, Matplotlib, Seaborn, and SciPy. Through coursework, I have gained skills in software such as COMSOL, AutoCAD, SQL, and MATLAB.
+                                </p>
+                                <p>
+                                    I’m currently seeking opportunities to collaborate with innovative teams and contribute to cutting-edge solutions in the tech industry. I’m eager to learn and grow as a valuable asset in my field.
+                                </p>
+                            </div>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>Projects</p>
+                    <h2>Personal  Projects</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Data Journaling </h3>
+                                <a class="btn" href="https://www.omdena.com">+</a>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Customer Analysis</h3>
+                                <a class="btn" href="https://github.com/EGichuhi/Customer_data_analysis/tree/main">+</a>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        
+        
+        <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Work Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jan 2024 - June 2024</div>
+                            <h2>Data Ananlyst</h2>
+                            <h4>Telus Internional, Vancouver, BC</h4>
+                            <p><ul>
+                                <li>Conducted detailed reviews of AI-generated responses across domains like media, sports, and news with a 98% accuracy rate in protocol adherence.</li>
+                                <li>Enhanced reliability of user-facing responses by identifying and resolving AI output inconsistencies, reducing error rates.</li>
+                                <li>Leveraged downtime to explore company datasets, applying Python (Pandas, NumPy), SQL, and Excel for data cleaning and analysis techniques, improving reporting accuracy and supporting data-driven insights.</li>
+                                <li>Took initiative upskill in SQL and Databricks, experimenting with querying databases and using Jupyter Notebooks to answer relevant business questions.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jan 2023 - Apr 2023</div>
+                            <h2>Data Engineering Intern</h2>
+                            <h4>AmLive, Toronto, ON</h4>
+                            <p><ul>
+                                <li>Utilized Python libraries such as Matplotlib, scikit-learn, SciPy and Seaborn to execute data analysis, and visualization techniques, for a total of 5 projects analyzing user listening patterns and playlist performance, supporting data-driven decision-making.</li>
+                                    <li>Assisted in the development of a data processing pipeline for analyzing streaming data and user interaction with content, utilizing MongoDB for optimized data storage and Databricks for enhanced data processing and collaboration, increasing operational efficiency over four months.</li>
+                                    <li>Participated in designing an ETL process aimed at aggregating data from different music streaming platforms to streamline data transformation from multiple sources leveraging SQL, Python, and Databricks for efficient data management and processing.</li>
+                        </ul></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+        
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+ <!-- Footer Start -->
+ <div class="footer wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid">
+        <div class="container">
+            <div class="footer-info">
+                <h2>Eunice Gichuhi</h2>
+                <h3>Toronto, ON</h3>
+                <div class="footer-menu">
+                    <p>+647-679-5545</p>
+                    <p>Ewgichuh@uwaterloo.ca</p>
+                </div>
+                <div class="footer-social">
+                    <!--a href=""><i class="fab fa-facebook-f"></i></a-->
+                    <a href="https://www.linkedin.com/in/eunicegichuhi/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; <a href="#">Eunice Portfolio</a>, All Right Reserved </a></p>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
